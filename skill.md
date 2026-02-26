@@ -1,18 +1,20 @@
 ---
 name: frontend-design
-description: Studio-grade frontend interface generation with strong aesthetic direction and production quality.
 version: 3.0
 ---
 
-# FRONTEND DESIGN v3
+# FRONTEND DESIGN v3 — FULL
 
-This skill produces distinctive, production-ready frontends with:
-- aesthetic thesis
-- signature differentiator
-- token systems
-- choreographed motion
-- accessibility and performance discipline
+This skill produces unmistakable, studio-grade frontend interfaces.
 
 Design intent first. Code second.
 
-Follow templates, patterns, and acceptance checklist.
+Must include:
+- Aesthetic thesis
+- Signature differentiator
+- Token system
+- Motion choreography
+- Accessibility compliance
+- Production-ready structure
+
+Follow patterns/, templates/, anti-patterns/ strictly.

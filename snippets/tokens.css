@@ -1,14 +1,1 @@
-:root{
-  --bg:#0b0c0f;
-  --surface:rgba(255,255,255,.06);
-  --text:rgba(255,255,255,.92);
-  --accent:#c8ff2e;
-
-  --font-display:"Fraunces",serif;
-  --font-body:"IBM Plex Sans",sans-serif;
-
-  --ease:cubic-bezier(.16,1,.3,1);
-  --t-fast:140ms;
-  --t-med:240ms;
-  --t-slow:420ms;
-}
+:root{--bg:#0b0c0f;--text:#fff;--accent:#c8ff2e;--ease:cubic-bezier(.16,1,.3,1);}

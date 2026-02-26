@@ -1,17 +1,3 @@
-# Design Intent Brief
+# Design Intent Brief.Md
 
-## Purpose
-Who uses it:
-Why:
-
-## Aesthetic Thesis
-Direction:
-Tagline:
-
-## Signature Differentiator
-Hook:
-
-## Constraints
-Tech:
-Performance:
-Accessibility:
+Define purpose, aesthetic thesis, differentiator, constraints.
