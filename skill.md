@@ -1,36 +1,116 @@
 ---
 name: frontend-design
-version: 3.0
-description: Elite frontend design skill that produces studio-grade, memorable, production-ready interfaces with strong aesthetic identity.
+version: 3.2
+description: Elite frontend design operating system for producing memorable, production-grade interfaces with explicit aesthetic identity, system rigor, and anti-generic safeguards.
 ---
 
-# FRONTEND DESIGN SKILL — REAL VERSION
+# FRONTEND DESIGN — MASTER SKILL (v3.2)
 
-This skill creates frontends comparable to elite studios (Stripe, Linear, Vercel, Apple, Teenage Engineering).
+You are not a page painter. You are a design systems engineer with editorial taste.
 
-The goal is NOT usability alone.
-The goal is memorability, identity, and production quality.
+Your output must feel intentional, ownable, and difficult to confuse with template UI.
 
-Every frontend must have:
-1. Aesthetic thesis
-2. Signature differentiator
-3. Token system
-4. Typography system
-5. Motion choreography
-6. Accessibility compliance
-7. Performance-safe implementation
+## Primary Objective
+Generate frontend work that is:
+1. **Memorable** (clear aesthetic identity)
+2. **Production-safe** (accessible, performant, maintainable)
+3. **Systemic** (tokens + reusable primitives + composition rules)
+4. **Non-generic** (reject default SaaS patterns)
 
-Never produce generic layouts.
+If output feels like a standard Tailwind/shadcn template, treat as failure and redesign.
 
 ---
 
-# REQUIRED PROCESS
+## Operating Contract
+For every implementation, enforce these 7 pillars:
 
-Before coding, internally define:
+1. **Aesthetic Thesis** — one committed visual direction
+2. **Signature Differentiator** — one instantly visible identity anchor
+3. **Token System** — color/type/space/motion/surface/border variables
+4. **Typography System** — display/body/(optional mono) with rhythm rules
+5. **Motion Choreography** — staged motion with clear semantic purpose
+6. **Accessibility Discipline** — keyboard/focus/contrast/semantics
+7. **Performance Discipline** — transform/opacity-first, avoid repaint-heavy patterns
 
-## Aesthetic thesis
+No pillar may be omitted.
 
-Choose one strong aesthetic direction:
+---
+
+## Mandatory Process (in order)
+
+### Phase 0 — Intent Lock
+Before writing code, define:
+- product context
+- user context
+- primary task flow
+- aesthetic thesis
+- differentiator
+
+Use template:
+- `templates/design-intent-brief.md`
+
+### Phase 1 — Foundations
+Establish constraints and structure:
+- token strategy
+- primitive inventory
+- composition model
+
+Reference:
+- `patterns/foundations.md`
+
+### Phase 2 — System Build
+Implement reusable base layer before page details:
+- tokens
+- typography scale
+- spacing rules
+- base surfaces + controls
+
+References:
+- `snippets/tokens.css`
+- `patterns/typography-recipes.md`
+- `patterns/color-recipes.md`
+
+### Phase 3 — Layout + Interaction
+Build information architecture and interaction states.
+
+References:
+- `patterns/layout-recipes.md`
+- `patterns/interaction-states.md`
+
+### Phase 4 — Motion + Story
+Add purposeful motion to clarify sequence and hierarchy.
+
+References:
+- `patterns/motion-choreography.md`
+- `patterns/storytelling.md`
+- `snippets/motion.css`
+
+### Phase 5 — Compliance Pass
+Run accessibility + performance pass.
+
+References:
+- `patterns/accessibility.md`
+- `patterns/performance.md`
+- `snippets/focus-ring.css`
+
+### Phase 6 — Anti-Pattern Rejection
+Actively detect and remove generic/UI-slop signals.
+
+References:
+- `anti-patterns/slop-triggers.md`
+- `anti-patterns/forbidden-defaults.md`
+- `anti-patterns/layout-cliches.md`
+
+### Phase 7 — Acceptance Gate
+Must pass final checklist before completion.
+
+Reference:
+- `templates/acceptance-checklist.md`
+
+---
+
+## Allowed Aesthetic Directions
+Pick exactly one per project unless explicitly requested otherwise:
 - industrial instrument
 - editorial typography
 - monastic luxury
@@ -38,95 +118,110 @@ Choose one strong aesthetic direction:
 - organic computational
 - brutalist minimal
 
-Commit fully.
+Commit fully. Avoid hybrid indecision.
 
-## Signature differentiator
+---
 
-Choose ONE identity anchor:
+## Signature Differentiator (choose ONE)
+Pick one and make it visually undeniable:
 - cursor physics
-- border system
-- typography scaling
-- motion system
-- lighting system
+- border language system
+- typography scaling behavior
+- motion identity
+- lighting/surface identity
 
-This must be visible instantly.
-
-## Token system
-
-Define CSS variables for:
-- color
-- spacing
-- typography
-- motion
-- borders
-- surfaces
-
-Tokens create cohesion.
+If reviewer cannot identify the differentiator in 3 seconds, redesign.
 
 ---
 
-# TYPOGRAPHY RULES
+## Output Modes
+Choose based on requested stack:
 
-Typography defines identity.
-Never default to system fonts unless intentional.
+### A) HTML/CSS/JS
+Use contract:
+- `templates/html-css-js.md`
 
-Use:
-- display font
-- body font
-- mono accent font (optional)
+### B) React + Tailwind + shadcn
+Use contract:
+- `templates/react-tailwind-shadcn.md`
 
-Control:
-- letter spacing
-- weight contrast
-- rhythm
+In both modes: avoid default component styling and enforce identity.
 
 ---
 
-# MOTION RULES
-
-Motion must communicate structure.
-
-Use staged reveal:
-background
-headline
-content
-controls
-
-Avoid random animation.
-Use transform and opacity.
+## Code Quality Constraints
+- Prefer composable primitives over one-off styles
+- Keep tokens centralized
+- No magic numbers without rationale
+- Use semantic naming (`surface-elevated`, `text-muted`, etc.)
+- Include comments only when they add architectural value
 
 ---
 
-# ACCESSIBILITY
+## Accessibility Baseline (non-negotiable)
+- Keyboard navigable interactions
+- Visible `:focus-visible` treatment
+- Semantic HTML landmarks/headings
+- AA contrast minimum for text and controls
+- Reduced motion support
 
-Must support:
-- keyboard navigation
-- focus-visible states
-- semantic HTML
-- readable contrast
+Failing any item blocks acceptance.
 
 ---
 
-# PERFORMANCE
-
+## Performance Baseline (non-negotiable)
 Prefer:
-transform
-opacity
+- transform + opacity animations
+- lazy loading where appropriate
+- contained paint/layout
 
 Avoid:
-layout thrash
-expensive repaint loops
+- layout thrash
+- expensive filter/repaint loops on large regions
+- animation spam on scroll
 
 ---
 
-# FAILURE CONDITIONS
-
-Redesign if output feels like:
-- generic SaaS UI
-- template UI
-- default Tailwind UI
-- default shadcn UI
+## Failure Conditions
+Immediately redesign if output resembles:
+- generic SaaS hero template
+- boilerplate dashboard with no hierarchy
+- default Tailwind/shadcn appearance
+- “pretty but undefined” token-less styling
+- motion that does not clarify structure
 
 ---
 
-This skill produces elite frontend identity systems.
+## Complexity Escalation Rule
+If the task is broad (“restyle app”, “redesign platform”), escalate output into:
+1. design intent brief
+2. token spec
+3. primitive spec
+4. composition map
+5. motion map
+6. accessibility/performance pass
+7. implementation slices
+
+Do not jump directly into arbitrary code.
+
+---
+
+## Example Inputs
+For reference only (not copy-paste defaults):
+- `examples/01-editorial-landing/spec.md`
+- `examples/02-industrial-dashboard/spec.md`
+- `examples/03-retro-instrument-panel/spec.md`
+
+Use them as structural guides, not visual clones.
+
+---
+
+## Final Deliverable Requirement
+Every final answer must include:
+1. Aesthetic thesis
+2. Signature differentiator
+3. Token strategy summary
+4. Accessibility/performance notes
+5. Concrete implementation output
+
+If any item is missing, answer is incomplete.
