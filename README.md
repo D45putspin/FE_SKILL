@@ -1,24 +1,26 @@
-# frontend-design
+# frontend-design (FE_SKILL)
 
-Studio-grade frontend generation skill for OpenClaw/Codex.
+Elite frontend design skill for OpenClaw/Codex.
 
-## What it enforces
-- clear aesthetic thesis
-- signature differentiator
-- real design systems (tokens/type/spacing/motion)
-- accessibility + performance discipline
-- anti-slop constraints
+## What it is
+A design operating system for generating production-grade, memorable interfaces with explicit identity and quality gates.
 
-## Structure
-- `skill.md` / `SKILL.md` — core instructions
-- `patterns/` — practical design patterns
-- `anti-patterns/` — what to avoid
-- `snippets/` — reusable CSS/JS snippets
-- `templates/` — workflow templates/checklists
+## Fast Start
+1. Read `GETTING-STARTED.md`
+2. Fill `templates/design-intent-brief.md`
+3. Build with `skill.md`
+4. Validate with:
+   - `templates/quality-scorecard.md` (must score >= 85)
+   - `templates/review-report.md`
+   - `templates/acceptance-checklist.md`
 
-## Recommended workflow
-1. Fill `templates/design-intent-brief.md`
-2. Implement tokens (`snippets/tokens.css`)
-3. Build layout + typography
-4. Apply interaction + motion patterns
-5. Run `templates/acceptance-checklist.md`
+## Repo Structure
+- `skill.md` — master instruction file
+- `patterns/` — practical design playbooks
+- `anti-patterns/` — explicit failure modes
+- `snippets/` — reusable CSS/JS assets
+- `templates/` — process + QA templates
+- `examples/` — spec-guided reference tracks
+
+## Release Standard
+This repo is considered release-ready only when outputs include objective evidence (a11y/perf/state coverage), not style claims alone.
