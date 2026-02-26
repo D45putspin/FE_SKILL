@@ -1,13 +1,24 @@
-# frontend-design v3 (FULL)
+# frontend-design
 
-Elite frontend design skill for Codex/OpenClaw agents.
+Studio-grade frontend generation skill for OpenClaw/Codex.
 
-Produces studio-grade frontends with:
-- aesthetic thesis
+## What it enforces
+- clear aesthetic thesis
 - signature differentiator
-- full token systems
-- motion choreography
-- accessibility and performance discipline
-- anti-slop enforcement
+- real design systems (tokens/type/spacing/motion)
+- accessibility + performance discipline
+- anti-slop constraints
 
-Use skill.md as the entry point.
+## Structure
+- `skill.md` / `SKILL.md` — core instructions
+- `patterns/` — practical design patterns
+- `anti-patterns/` — what to avoid
+- `snippets/` — reusable CSS/JS snippets
+- `templates/` — workflow templates/checklists
+
+## Recommended workflow
+1. Fill `templates/design-intent-brief.md`
+2. Implement tokens (`snippets/tokens.css`)
+3. Build layout + typography
+4. Apply interaction + motion patterns
+5. Run `templates/acceptance-checklist.md`

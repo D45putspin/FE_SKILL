@@ -1,7 +1,14 @@
 {
   "name": "frontend-design",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "entry": "skill.md",
   "description": "Elite studio-grade frontend design skill",
-  "tags": ["frontend", "design", "react", "ui", "ux", "motion"]
+  "tags": [
+    "frontend",
+    "design",
+    "react",
+    "ui",
+    "ux",
+    "motion"
+  ]
 }

@@ -1,1 +1,10 @@
-.grain::after{content:'';position:absolute;inset:0;opacity:.04;pointer-events:none;}
+.grain::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: .06;
+  background-image: radial-gradient(rgba(255,255,255,.8) 0.4px, transparent 0.4px);
+  background-size: 3px 3px;
+  mix-blend-mode: soft-light;
+}
