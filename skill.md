@@ -1,31 +1,132 @@
 ---
 name: frontend-design
-description: Studio-grade frontend interface generation with strong aesthetic direction and production quality.
-version: 3.1
+version: 3.0
+description: Elite frontend design skill that produces studio-grade, memorable, production-ready interfaces with strong aesthetic identity.
 ---
 
-# FRONTEND DESIGN v3.1
+# FRONTEND DESIGN SKILL — REAL VERSION
 
-This skill produces distinctive, production-ready frontends with:
-- aesthetic thesis
-- signature differentiator
-- token systems
-- choreographed motion
-- accessibility and performance discipline
+This skill creates frontends comparable to elite studios (Stripe, Linear, Vercel, Apple, Teenage Engineering).
 
-## Operating Principle
-**Design intent first. Code second.**
+The goal is NOT usability alone.
+The goal is memorability, identity, and production quality.
 
-## Workflow
-1. Fill `templates/design-intent-brief.md`
-2. Build foundation with `patterns/foundations.md`
-3. Apply token system from `snippets/tokens.css`
-4. Compose layouts using `patterns/layout-recipes.md`
-5. Add interaction states and motion (`patterns/interaction-states.md`, `patterns/motion-choreography.md`)
-6. Validate with `templates/acceptance-checklist.md`
+Every frontend must have:
+1. Aesthetic thesis
+2. Signature differentiator
+3. Token system
+4. Typography system
+5. Motion choreography
+6. Accessibility compliance
+7. Performance-safe implementation
 
-## Quality Guardrails
-- Avoid anti-patterns in `anti-patterns/*`
-- Ensure keyboard/focus accessibility
-- Respect reduced motion
-- Prefer product-specific UI over generic templates
+Never produce generic layouts.
+
+---
+
+# REQUIRED PROCESS
+
+Before coding, internally define:
+
+## Aesthetic thesis
+
+Choose one strong aesthetic direction:
+- industrial instrument
+- editorial typography
+- monastic luxury
+- retro terminal future
+- organic computational
+- brutalist minimal
+
+Commit fully.
+
+## Signature differentiator
+
+Choose ONE identity anchor:
+- cursor physics
+- border system
+- typography scaling
+- motion system
+- lighting system
+
+This must be visible instantly.
+
+## Token system
+
+Define CSS variables for:
+- color
+- spacing
+- typography
+- motion
+- borders
+- surfaces
+
+Tokens create cohesion.
+
+---
+
+# TYPOGRAPHY RULES
+
+Typography defines identity.
+Never default to system fonts unless intentional.
+
+Use:
+- display font
+- body font
+- mono accent font (optional)
+
+Control:
+- letter spacing
+- weight contrast
+- rhythm
+
+---
+
+# MOTION RULES
+
+Motion must communicate structure.
+
+Use staged reveal:
+background
+headline
+content
+controls
+
+Avoid random animation.
+Use transform and opacity.
+
+---
+
+# ACCESSIBILITY
+
+Must support:
+- keyboard navigation
+- focus-visible states
+- semantic HTML
+- readable contrast
+
+---
+
+# PERFORMANCE
+
+Prefer:
+transform
+opacity
+
+Avoid:
+layout thrash
+expensive repaint loops
+
+---
+
+# FAILURE CONDITIONS
+
+Redesign if output feels like:
+- generic SaaS UI
+- template UI
+- default Tailwind UI
+- default shadcn UI
+
+---
+
+This skill produces elite frontend identity systems.
